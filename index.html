@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Let's Count !!</h1>
+    <div class="container">
+        <textarea id="textBox" cols="70" rows="10"></textarea>
+        <div class="count">
+            <select id="selectedOption">
+                <option value="vowel">Vowels</option>
+                <option value="consonant">Consonants</option>
+                <option value="space">Spaces</option>
+                <option value="digit">Digits</option>
+            </select>
+            <button onclick="count()">Count</button>
+            <button onclick="reset()">Reset Text</button>
+        </div>
+        <h1 class="finalCount"></h1>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
